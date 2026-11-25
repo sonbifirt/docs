@@ -62,15 +62,15 @@ T = {
         "brand": "Studii în Anglia", "brand_sub": "by Margarita Dmitriev",
         "nav": ["De ce să aplici", "Implicarea mea", "Universități", "Recenzii", "Contacte"],
         "cta": "Aplică acum", "call": "Sună acum",
-        "badge_tag": "Gratuit", "badge": "Offer support",
+        "badge_tag": "UK", "badge": "Offer support gratuit",
         "h1": "Aplică la studii în <em>Anglia</em>",
-        "lead": "Te ajut cu tot procesul <strong>GRATUIT!</strong> De la alegerea cursului până la oferta de la universitate și Student Finance.",
-        "stats": [("£13<span>k</span>", "pe an pentru cheltuieli personale"),
-                  ("100<span>+</span>", "de cursuri în zeci de universități"),
-                  ("99<span>%</span>", "reușită la interviu și testul de admitere")],
+        "lead": "Te ajut cu tot procesul <strong>GRATUIT!</strong>",
+        "stats": [("£13<span>k</span>", "pentru cheltuieli personale în fiecare an"),
+                  ("100<span>+</span>", "cursuri"),
+                  ("99<span>%</span>", "Garantez o reușită de 99%")],
         "why_eyebrow": "Beneficii",
         "why_title": "De ce să aplici <em>la studii?</em>",
-        "why_sub": "Tot ce câștigi alegând să studiezi în Marea Britanie.",
+        "why_sub": "",
         "quote": "„Primești sprijin financiar pentru educație plus £13.000 de lire sterline pentru cheltuieli personale în fiecare an, cu condiția să te califici pentru Student Finance England.”",
         "quote_unit": "/ an",
         "benefits": [
@@ -92,7 +92,7 @@ T = {
             "Consultanță și ghidare în procesul de aplicare la Student Finance",
             "Ajutor pe tot parcursul studiilor",
         ],
-        "role": "Consultant studii în UK", "online": "Online acum",
+        "role": "Studii în Anglia", "online": "Online",
         "uni_eyebrow": "Parteneri",
         "uni_title": "Colaborăm cu zeci de Universități și Colegii <em>cu peste 100 de cursuri</em>",
         "sched_label": "Poți alege program de doar:",
@@ -102,15 +102,15 @@ T = {
         "rev_all": "Toate recenziile", "rev_src": "Recenzie Facebook",
         "prev": "Înapoi", "next": "Înainte",
         "form_eyebrow": "Completează formularul",
-        "form_title": "Beneficiază de consultație <em>gratuită</em>",
-        "form_text": "Consultație <strong>GRATUITĂ</strong> și <strong>PROFESIONISTĂ</strong>. Lasă datele tale și te contactez în cel mai scurt timp.",
-        "form_h": "Completează formularul",
+        "form_title": "Beneficiază de consultație <em>GRATUITĂ și PROFESIONISTĂ</em>",
+        "form_text": "",
+        "form_h": "Studii în Anglia",
         "f_name": "Nume/Prenume", "f_phone": "Telefon", "f_email": "E-mail",
         "f_send": "Trimite", "f_note": "*protejăm datele cu caracter personal",
         "f_ok": "Mulțumim! Mesajul tău a fost pregătit în WhatsApp — apasă „Trimite” acolo.",
         "f_msg": "Bună ziua! Doresc o consultație gratuită pentru studii în Anglia.",
         "contacts": "Contacte", "social": "Social Media",
-        "footer_text": "Consultanță gratuită pentru admiterea la universitățile din Anglia și aplicarea la Student Finance.",
+        "footer_text": "",
         "rights": "Toate drepturile rezervate.",
         "wa_label": "Scrie-ne pe WhatsApp",
         "menu": "Meniu",
@@ -121,15 +121,15 @@ T = {
         "brand": "Учёба в Англии", "brand_sub": "by Margarita Dmitriev",
         "nav": ["Почему учиться", "Моя помощь", "Университеты", "Отзывы", "Контакты"],
         "cta": "Подать заявку", "call": "Позвонить",
-        "badge_tag": "Бесплатно", "badge": "Сопровождение до оффера",
+        "badge_tag": "UK", "badge": "Бесплатное сопровождение до оффера",
         "h1": "Поступи на учёбу в <em>Англии</em>",
-        "lead": "Помогу со всем процессом <strong>БЕСПЛАТНО!</strong> От выбора курса до оффера от университета и Student Finance.",
-        "stats": [("£13<span>k</span>", "в год на личные расходы"),
-                  ("100<span>+</span>", "курсов в десятках университетов"),
-                  ("99<span>%</span>", "успеха на интервью и вступительном тесте")],
+        "lead": "Помогу со всем процессом <strong>БЕСПЛАТНО!</strong>",
+        "stats": [("£13<span>k</span>", "на личные расходы каждый год"),
+                  ("100<span>+</span>", "курсов"),
+                  ("99<span>%</span>", "Гарантирую успех на 99%")],
         "why_eyebrow": "Преимущества",
         "why_title": "Почему стоит <em>поступать?</em>",
-        "why_sub": "Всё, что вы получаете, выбирая учёбу в Великобритании.",
+        "why_sub": "",
         "quote": "«Вы получаете финансирование обучения плюс £13 000 фунтов стерлингов на личные расходы каждый год при условии, что вы соответствуете требованиям Student Finance England.»",
         "quote_unit": "/ год",
         "benefits": [
@@ -151,7 +151,7 @@ T = {
             "Консультация и сопровождение при подаче заявки в Student Finance",
             "Помощь на протяжении всего обучения",
         ],
-        "role": "Консультант по учёбе в UK", "online": "Сейчас онлайн",
+        "role": "Учёба в Англии", "online": "Online",
         "uni_eyebrow": "Партнёры",
         "uni_title": "Сотрудничаем с десятками университетов и колледжей <em>более 100 курсов</em>",
         "sched_label": "Можно выбрать программу всего:",
@@ -161,15 +161,15 @@ T = {
         "rev_all": "Все отзывы", "rev_src": "Отзыв на Facebook",
         "prev": "Назад", "next": "Вперёд",
         "form_eyebrow": "Заполните форму",
-        "form_title": "Получите <em>бесплатную</em> консультацию",
-        "form_text": "<strong>БЕСПЛАТНАЯ</strong> и <strong>ПРОФЕССИОНАЛЬНАЯ</strong> консультация. Оставьте свои данные, и я свяжусь с вами в ближайшее время.",
-        "form_h": "Заполните форму",
+        "form_title": "Получите <em>БЕСПЛАТНУЮ и ПРОФЕССИОНАЛЬНУЮ</em> консультацию",
+        "form_text": "",
+        "form_h": "Учёба в Англии",
         "f_name": "Имя/Фамилия", "f_phone": "Телефон", "f_email": "E-mail",
         "f_send": "Отправить", "f_note": "*мы защищаем ваши персональные данные",
         "f_ok": "Спасибо! Сообщение подготовлено в WhatsApp — нажмите там «Отправить».",
         "f_msg": "Здравствуйте! Хочу получить бесплатную консультацию по учёбе в Англии.",
         "contacts": "Контакты", "social": "Соцсети",
-        "footer_text": "Бесплатная консультация по поступлению в университеты Англии и подаче заявки в Student Finance.",
+        "footer_text": "",
         "rights": "Все права защищены.",
         "wa_label": "Написать в WhatsApp",
         "menu": "Меню",
@@ -180,15 +180,15 @@ T = {
         "brand": "Study in England", "brand_sub": "by Margarita Dmitriev",
         "nav": ["Why apply", "How I help", "Universities", "Reviews", "Contact"],
         "cta": "Apply now", "call": "Call now",
-        "badge_tag": "Free", "badge": "Support until your offer",
+        "badge_tag": "UK", "badge": "Free offer support",
         "h1": "Apply to study in <em>England</em>",
-        "lead": "I'll help you through the whole process <strong>for FREE!</strong> From choosing a course to your university offer and Student Finance.",
-        "stats": [("£13<span>k</span>", "a year for personal expenses"),
-                  ("100<span>+</span>", "courses at dozens of universities"),
-                  ("99<span>%</span>", "success at interview and admission test")],
+        "lead": "I'll help you through the whole process <strong>for FREE!</strong>",
+        "stats": [("£13<span>k</span>", "for personal expenses every year"),
+                  ("100<span>+</span>", "courses"),
+                  ("99<span>%</span>", "99% success guaranteed")],
         "why_eyebrow": "Benefits",
         "why_title": "Why apply <em>to study?</em>",
-        "why_sub": "Everything you gain by choosing to study in the UK.",
+        "why_sub": "",
         "quote": "“You receive financial support for your tuition plus £13,000 for personal expenses every year, provided you qualify for Student Finance England.”",
         "quote_unit": "/ year",
         "benefits": [
@@ -210,7 +210,7 @@ T = {
             "Advice and guidance through the Student Finance application",
             "Help throughout your studies",
         ],
-        "role": "UK study consultant", "online": "Online now",
+        "role": "Study in England", "online": "Online",
         "uni_eyebrow": "Partners",
         "uni_title": "We work with dozens of universities and colleges <em>offering 100+ courses</em>",
         "sched_label": "You can choose a programme of just:",
@@ -220,15 +220,15 @@ T = {
         "rev_all": "All reviews", "rev_src": "Facebook review",
         "prev": "Previous", "next": "Next",
         "form_eyebrow": "Fill in the form",
-        "form_title": "Get a <em>free</em> consultation",
-        "form_text": "A <strong>FREE</strong> and <strong>PROFESSIONAL</strong> consultation. Leave your details and I'll get back to you shortly.",
-        "form_h": "Fill in the form",
+        "form_title": "Get a <em>FREE and PROFESSIONAL</em> consultation",
+        "form_text": "",
+        "form_h": "Study in England",
         "f_name": "Full name", "f_phone": "Phone", "f_email": "E-mail",
         "f_send": "Send", "f_note": "*we protect your personal data",
         "f_ok": "Thank you! Your message is ready in WhatsApp — just tap “Send” there.",
         "f_msg": "Hello! I'd like a free consultation about studying in England.",
         "contacts": "Contact", "social": "Social media",
-        "footer_text": "Free guidance for admission to universities in England and for your Student Finance application.",
+        "footer_text": "",
         "rights": "All rights reserved.",
         "wa_label": "Message us on WhatsApp",
         "menu": "Menu",
@@ -381,7 +381,7 @@ def render(lang):
     <div class="container">
       <div class="section__head">
         <div class="reveal"><span class="eyebrow">{t["why_eyebrow"]}</span><h2 class="h2">{t["why_title"]}</h2></div>
-        <p class="reveal" style="--d:.1s">{t["why_sub"]}</p>
+        {f'<p class="reveal" style="--d:.1s">{t["why_sub"]}</p>' if t["why_sub"] else ""}
       </div>
       <div class="benefits">
         <article class="benefit benefit--feature reveal">
@@ -451,7 +451,7 @@ def render(lang):
         <div class="cta__info">
           <span class="eyebrow">{t["form_eyebrow"]}</span>
           <h2 class="h2">{t["form_title"]}</h2>
-          <p>{t["form_text"]}</p>
+          {f'<p>{t["form_text"]}</p>' if t["form_text"] else ""}
           <div class="cta__contacts">
             <a href="tel:{PHONE_TEL}"><span>{icon("phone")}</span>{PHONE_DISPLAY}</a>
             <a href="mailto:{EMAIL}"><span>{icon("mail")}</span>{EMAIL}</a>
@@ -478,7 +478,7 @@ def render(lang):
     <div class="footer__grid">
       <div class="footer__brand">
         <a class="logo" href="{p}{LANGS[lang]["path"] or './'}"><span class="logo__mark">M</span><span class="logo__text">{t["brand"]}<small>{t["brand_sub"]}</small></span></a>
-        <p>{t["footer_text"]}</p>
+        {f'<p>{t["footer_text"]}</p>' if t["footer_text"] else ""}
       </div>
       <div>
         <h4>{t["contacts"]}</h4>

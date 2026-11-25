@@ -429,8 +429,12 @@ button, input { font: inherit; }
 }
 @media (max-width: 640px) {
   body { font-size: 16px; }
-  .hero { padding: 120px 0 80px; align-items: flex-end; }
-  .hero__bg { background-position: 74% top; }
+  .hero { padding: 0 0 70px; flex-direction: column; align-items: stretch; min-height: 0; }
+  .hero__bg { position: relative; inset: auto; z-index: auto; height: 62svh; min-height: 400px; background-position: 72% 20%; animation: none; transform: none; }
+  .hero::before { display: none; }
+  .hero__bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(11,23,38,.55) 0%, rgba(11,23,38,0) 22%, rgba(11,23,38,0) 60%, var(--navy) 100%); }
+  .hero .container { margin-top: -70px; position: relative; }
+  .hero h1 { margin-top: 18px; }
   .hero__squares { display: none; }
   .hero__actions .btn { flex: 1 1 auto; }
   .stats { grid-template-columns: repeat(3, 1fr); gap: 16px; width: 100%; }
