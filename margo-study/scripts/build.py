@@ -10,6 +10,7 @@ from html import escape
 ROOT = Path(__file__).resolve().parent.parent
 CUR = ' aria-current="true"'
 
+SITE = "https://studii-in-anglia.vercel.app"
 PHONE_DISPLAY = "078 3424 1022"
 PHONE_TEL = "+447834241022"
 WHATSAPP = "447834241022"
@@ -280,8 +281,8 @@ def render(lang):
         for k, v in LANGS.items()
     )
     alternates = "\n  ".join(
-        f'<link rel="alternate" hreflang="{k}" href="/{v["path"]}">' for k, v in LANGS.items()
-    ) + '\n  <link rel="alternate" hreflang="x-default" href="/">'
+        f'<link rel="alternate" hreflang="{k}" href="{SITE}/{v["path"]}">' for k, v in LANGS.items()
+    ) + f'\n  <link rel="alternate" hreflang="x-default" href="{SITE}/">\n  <link rel="canonical" href="{SITE}/{LANGS[lang]["path"]}">'
     nav = "".join(f'<a href="#{i}">{n}</a>' for i, n in zip(ids, t["nav"]))
     stats = "".join(f'<div class="stat"><b>{b}</b><small>{s}</small></div>' for b, s in t["stats"])
 
@@ -330,7 +331,7 @@ def render(lang):
   <meta property="og:type" content="website">
   <meta property="og:title" content="{escape(t["title"])}">
   <meta property="og:description" content="{escape(t["description"])}">
-  <meta property="og:image" content="/assets/img/og.jpg">
+  <meta property="og:image" content="{SITE}/assets/img/og.jpg">
   <meta property="og:locale" content="{LANGS[lang]["locale"]}">
   {alternates}
   <link rel="icon" href="{a}favicon.svg" type="image/svg+xml">
